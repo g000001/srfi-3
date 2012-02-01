@@ -65,7 +65,7 @@
 (defun CHECK-ARG-to-DECLARE (expr)
   (destructuring-bind (ignore var pred name) expr
     (declare (ignore ignore name))
-    `(declare ((satisfies ,pred) ,var))))
+    `(declare (type (satisfies ,pred) ,var))))
 
 (defun restify (expr)
   (etypecase expr
