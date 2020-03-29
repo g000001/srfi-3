@@ -92,11 +92,8 @@
 ;;; checks, such as procedure arity for higher-order values.
 ;;;
 
-(cl:in-package :srfi-3-internal)
+(cl:in-package "https://github.com/g000001/srfi-3#internals")
 
-(def-suite srfi-3)
-
-(in-suite srfi-3)
 
 ;;; First the procedures that take a comparison function as an argument.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

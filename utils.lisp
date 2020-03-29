@@ -1,4 +1,4 @@
-(in-package :srfi-3-internal)
+(in-package "https://github.com/g000001/srfi-3#internals")
 
 ;; from KMRCL
 (defmacro defconstant* (sym value &optional doc)
